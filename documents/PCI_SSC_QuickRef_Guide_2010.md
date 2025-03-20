@@ -1,6 +1,6 @@
-<!-- image -->
 
-<!-- image -->
+
+
 
 ## PCI DSS Quick Reference Guide
 
@@ -43,7 +43,7 @@ October 2010
 | Web Resources ...................................................................................................................32                          |                                                                                                     |
 | About the PCI Security Standards Council ........................................................................33                                          |                                                                                                     |
 
-This Guide provides supplemental information that does not replace or supersede PCI SSC Security Standards or their supporting documents.
+
 
 Introduction
 
@@ -59,7 +59,7 @@ Merchant-based vulnerabilities may appear almost anywhere in the card-processing
 
 Compliance with the Payment Card Industry (PCI) Data Security Standard (DSS) helps to alleviate these vulnerabilities and protect cardholder data.
 
-This Guide provides supplemental information that does not replace or supersede PCI SSC Security Standards or their supporting documents.
+
 
 4
 
@@ -77,7 +77,7 @@ A survey of businesses in the U.S. and Europe reveals activities that may put ca
 
 Source: Forrester Consulting: The State of PCI Compliance (commissioned by RSA/EMC)
 
-<!-- image -->
+
 
 The intent of this PCI DSS Quick Reference Guide is to help you understand the PCI DSS and to apply it to your payment card transaction environment.
 
@@ -85,7 +85,7 @@ There are three ongoing steps for adhering to the PCI DSS: Assess - identifying 
 
 PCI DSS follows common sense steps that mirror best security practices. The DSS globally applies to all entities that store, process or transmit cardholder data. PCI DSS and related security standards are administered by the PCI Security Standards Council, which was founded by American Express, Discover Financial Services, JCB International, MasterCard Worldwide and Visa Inc. Participating Organizations include merchants, payment card issuing banks, processors, developers and other vendors.
 
-This Guide provides supplemental information that does not replace or supersede PCI SSC Security Standards or their supporting documents.
+
 
 Overview of PCI Requirements
 
@@ -107,9 +107,9 @@ PCI security standards are technical and operational requirements set by the PCI
 
 Protection of Cardholder Payment Data
 
-<!-- image -->
 
-This Guide provides supplemental information that does not replace or supersede PCI SSC Security Standards or their supporting documents.
+
+
 
 6
 
@@ -121,15 +121,15 @@ The PCI DSS applies to all entities that store, process, and/or transmit cardhol
 
 ## PIN Transaction Security (PTS) Requirements
 
-The PCI PTS (formerly PCI PED) is a set of security requirements focused on characteristics and management of devices used in the protection of cardholder PINs and other payment processing related activities. The requirements are for manufacturers to follow in the design, manufacture and transport of a device to the entity that implements it. Financial institutions, processors, merchants and service providers should only use devices or components that are tested and approved by the PCI SSC (www.pcisecuritystandards.org/approved\_companies\_providers/approved\_pin\_transaction\_security.php).
+The PCI PTS (formerly PCI PED) is a set of security requirements focused on characteristics and management of devices used in the protection of cardholder PINs and other payment processing related activities. The requirements are for manufacturers to follow in the design, manufacture and transport of a device to the entity that implements it. Financial institutions, processors, merchants and service providers should only use devices or components that are tested and approved by the PCI SSC (www.pcisecuritystandards.org/approved_companies_providers/approved_pin_transaction_security.php).
 
 ## Payment Application Data Security Standard (PA-DSS)
 
-The PA-DSS is for software developers and integrators of payment applications that store, process or transmit cardholder data as part of authorization or settlement when these applications are sold, distributed or licensed to third parties. Most card brands encourage merchants to use payment applications that are tested and approved by the PCI SSC. Validated applications are listed at: www.pcisecuritystandards.org/approved\_companies\_providers/validated\_payment\_applications.php
+The PA-DSS is for software developers and integrators of payment applications that store, process or transmit cardholder data as part of authorization or settlement when these applications are sold, distributed or licensed to third parties. Most card brands encourage merchants to use payment applications that are tested and approved by the PCI SSC. Validated applications are listed at: www.pcisecuritystandards.org/approved_companies_providers/validated_payment_applications.php
 
-The Council monitors new threats to cardholder data and may issue information supplements and other guidance for compliance. Changes to the PCI Security Standards follow a three-year lifecycle; the newest (version 2.0) was published in October 2010. For more information on the lifecycle, see: www.pcisecuritystandards.org/pdfs/pci\_lifecycle\_for\_changes\_to\_dss\_and\_padss.pdf
+The Council monitors new threats to cardholder data and may issue information supplements and other guidance for compliance. Changes to the PCI Security Standards follow a three-year lifecycle; the newest (version 2.0) was published in October 2010. For more information on the lifecycle, see: www.pcisecuritystandards.org/pdfs/pci_lifecycle_for_changes_to_dss_and_padss.pdf
 
-This Guide provides supplemental information that does not replace or supersede PCI SSC Security Standards or their supporting documents.
+
 
 7
 
@@ -147,7 +147,7 @@ PCI DSS is the global data security standard adopted by the payment card brands 
 | Maintain an Information  Security Policy     | Maintain a policy that addresses information security for all personnel                                                                                                 |
 |                                              | 12.                                                                                                                                                                     |
 
-This Guide provides supplemental information that does not replace or supersede PCI SSC Security Standards or their supporting documents.
+
 
 8
 
@@ -161,23 +161,23 @@ The PCI SSC sets the PCI security standards, but each payment card brand has its
 - · MasterCard Worldwide: · www.mastercard.com/sdp
 - · Visa Inc: · www.visa.com/cisp Visa Europe: · www.visaeurope.com/ais
 
-Qualified assessors. The Council manages programs that will help facilitate the assessment of compliance with PCI DSS: Qualified Security Assessor (QSA) and Approved Scanning Vendor (ASV). QSAs are approved by the Council to assess compliance with the PCI DSS. ASVs are approved by the Council to validate adherence to the PCI DSS scan requirements by performing vulnerability scans of Internetfacing environments of merchants and service providers. The Council also provides PCI DSS training for Internal Security Assessors (ISAs). Additional details can be found on our Web site at: www.pcisecuritystandards.org/approved\_companies\_providers/index.php
+Qualified assessors. The Council manages programs that will help facilitate the assessment of compliance with PCI DSS: Qualified Security Assessor (QSA) and Approved Scanning Vendor (ASV). QSAs are approved by the Council to assess compliance with the PCI DSS. ASVs are approved by the Council to validate adherence to the PCI DSS scan requirements by performing vulnerability scans of Internetfacing environments of merchants and service providers. The Council also provides PCI DSS training for Internal Security Assessors (ISAs). Additional details can be found on our Web site at: www.pcisecuritystandards.org/approved_companies_providers/index.php
 
 Self-assessment Questionnaire. The Self-Assessment Questionnaire (SAQ) is a validation tool for eligible organizations who self-assess their PCI DSS compliance and who are not required to submit a Report on Compliance (ROC). Different SAQs are available for various business environments; more details can be found on our web site at: www.pcisecuritystandards.org. An organization's acquiring financial institution or payment brand can also determine if you should complete an SAQ.
 
-This Guide provides supplemental information that does not replace or supersede PCI SSC Security Standards or their supporting documents.
+
 
 9
 
 ## PIN Transaction Security Requirements
 
-These requirements, referred to as PCI PTS (formerly PCI PED), applies to companies which make devices or components that accept or process personal identification numbers as a part of a PIN based transaction and for other payment processing related activities. Recognized PTS laboratories validate adherence to the PTS requirements. Financial institutions, processors, merchants and service providers should ensure that they are using approved PTS devices or components. Non financial institutions should check with their acquiring financial institution to understand requirements and associated timeframes for compliance. The PTS requirements cover devices, including the physical and logical security characteristics of their components, and device management. For details and a list of approved PTS devices and components see: www.pcisecuritystandards.org/security\_standards/ped/index.shtml
+These requirements, referred to as PCI PTS (formerly PCI PED), applies to companies which make devices or components that accept or process personal identification numbers as a part of a PIN based transaction and for other payment processing related activities. Recognized PTS laboratories validate adherence to the PTS requirements. Financial institutions, processors, merchants and service providers should ensure that they are using approved PTS devices or components. Non financial institutions should check with their acquiring financial institution to understand requirements and associated timeframes for compliance. The PTS requirements cover devices, including the physical and logical security characteristics of their components, and device management. For details and a list of approved PTS devices and components see: www.pcisecuritystandards.org/security_standards/ped/index.shtml
 
 ## Payment application Data Security Standard
 
-The PA-DSS is a standard for developers of payment applications. Its goal is to help software vendors and others develop secure commercial payment applications that do not store prohibited data, and ensure that payment applications support compliance with the PCI DSS. The PA-DSS does not apply to payment applications developed by merchants in-house; those are covered by the PCI DSS. Merchants and service providers should ensure that they are using Council-approved payment applications; check with your acquiring financial institution to understand requirements and associated timeframes for implementing approved applications. PA-DSS has 13 requirements: For details and a list of approved Payment Applications, see: www.pcisecuritystandards.org/security\_standards/index.php.
+The PA-DSS is a standard for developers of payment applications. Its goal is to help software vendors and others develop secure commercial payment applications that do not store prohibited data, and ensure that payment applications support compliance with the PCI DSS. The PA-DSS does not apply to payment applications developed by merchants in-house; those are covered by the PCI DSS. Merchants and service providers should ensure that they are using Council-approved payment applications; check with your acquiring financial institution to understand requirements and associated timeframes for implementing approved applications. PA-DSS has 13 requirements: For details and a list of approved Payment Applications, see: www.pcisecuritystandards.org/security_standards/index.php.
 
-This Guide provides supplemental information that does not replace or supersede PCI SSC Security Standards or their supporting documents.
+
 
 10
 
@@ -185,9 +185,9 @@ This Guide provides supplemental information that does not replace or supersede 
 
 The goal of the PCI Data Security Standard (PCI DSS) is to protect cardholder data wherever it is processed, stored or transmitted. The security controls and processes required by PCI DSS are vital for protecting cardholder account data, including the PAN - the primary account number printed on the front of a payment card. Merchants and any other service providers involved with payment card processing must never store sensitive authentication data after authorization. This includes sensitive data that is printed on a card, or stored on a card's magnetic stripe or chip - and personal identification numbers entered by the cardholder. This chapter presents the objectives of PCI DSS and related 12 requirements.
 
-<!-- image -->
 
-This Guide provides supplemental information that does not replace or supersede PCI SSC Security Standards or their supporting documents.
+
+
 
 Security Controls and Processes for PCI DSS Requirements
 
@@ -206,19 +206,19 @@ Firewalls are devices that control computer traffic allowed into and out of an o
 - 1.3 Prohibit direct public access between the Internet and any system component in the cardholder data environment.
 - 1.4 Install personal firewall software on any mobile and/or employee-owned computers with direct connectivity to the Internet that are used to access the organization's network.
 
-This Guide provides supplemental information that does not replace or supersede PCI SSC Security Standards or their supporting documents.
+
 
 12
 
 ## CoNTRoLS FoR NeTWoRk SeCURITy
 
-<!-- image -->
+
 
 ## Firewall
 
 Device that controls the passage of traffic between networks and within an internal network
 
-<!-- image -->
+
 
 ## Router
 
@@ -235,7 +235,7 @@ The easiest way for a hacker to access your internal network is to try default p
 - 2.3 Encrypt using strong cryptography all non-console administrative access such as browser/webbased management tools.
 - 2.4 Shared hosting providers must protect each entity's hosted environment and cardholder data (details are in PCI DSS Appendix A: "Additional PCI DSS Requirements for Shared Hosting Providers.")
 
-This Guide provides supplemental information that does not replace or supersede PCI SSC Security Standards or their supporting documents.
+
 
 ## TyPICaL DeFaULT PaSSWoRDS ThaT MUST Be ChaNGeD
 
@@ -256,7 +256,7 @@ In general, no cardholder data should ever be stored unless it's necessary to me
 - 3.3 Mask PAN when displayed; the first six and last four digits are the maximum number of digits you may display. Not applicable for authorized people with a legitimate business need to see the full PAN. Does not supersede stricter requirements in place for displays of cardholder data such as on a point-of-sale receipt.
 - 3.4 Render PAN unreadable anywhere it is stored - including on portable digital media, backup media, in logs, and data received from or stored by wireless networks. Technology solutions for this requirement may include strong one-way hash functions of the entire PAN, truncation, index tokens with securely stored pads, or strong cryptography. (See PCI DSS Glossary for definition of strong cryptography.)
 
-This Guide provides supplemental information that does not replace or supersede PCI SSC Security Standards or their supporting documents.
+
 
 14
 
@@ -288,7 +288,7 @@ Illustration: Wikimedia Commons
 - 1 Sensitive authentication data must not be stored after authorisation (even if encrypted).
 - 2 Full track data from the magnetic stripe, equivalent data on the chip, or elsewhere.
 
-This Guide provides supplemental information that does not replace or supersede PCI SSC Security Standards or their supporting documents.
+
 
 15
 
@@ -310,11 +310,11 @@ Many vulnerabilities and malicious viruses enter the network via users' e-mail a
 - 5.1 Deploy anti-virus software on all systems affected by malicious software (particularly personal computers and servers).
 - 5.2 Ensure that all anti-virus mechanisms are current, actively running, and generating audit logs.
 
-This Guide provides supplemental information that does not replace or supersede PCI SSC Security Standards or their supporting documents.
+
 
 vULNeRaBILITy MaNaGeMeNT
 
-<!-- image -->
+
 
 Create policy governing security controls according to industry standard best practices (e.g., IEEE 802.11i)
 
@@ -341,7 +341,7 @@ Security vulnerabilities in systems and applications may allow criminals to acce
 - 6.5 Develop applications based on secure coding guidelines and review custom application code to identify coding vulnerabilities. Follow up-to-date industry best practices to identify and manage vulnerabilities.
 - 6.6 Ensure all public-facing web applications are protected against known attacks, either by performing code vulnerability reviews at least annually or by installing a web application firewall in front of public-facing web applications.
 
-This Guide provides supplemental information that does not replace or supersede PCI SSC Security Standards or their supporting documents.
+
 
 17
 
@@ -362,13 +362,13 @@ Assigning a unique identification (ID) to each person with access ensures that a
 
 - 8.1 Assign all users a unique user name before allowing them to access system components or cardholder data.
 
-This Guide provides supplemental information that does not replace or supersede PCI SSC Security Standards or their supporting documents.
+
 
 18
 
 ## ReSTRICTING aCCeSS IS CRUCIaL!
 
-<!-- image -->
+
 
 Restrict Access to Cardholder Data Environments by employing access controls such as RBAC (Role Based Access Control)
 
@@ -387,21 +387,14 @@ Photo: Wikimedia Commons
 
 ## Requirement 9: Restrict physical access to cardholder data
 
+## GIVE EVERY USER A UNIQUE ID
+
+Every user with access to the Cardholder Data Environment must have a unique ID. This allows a business to trace every action to a specific individual.
+
 Any physical access to data or systems that house cardholder data provides the opportunity for persons to access and/or remove devices, data, systems or hardcopies, and should be appropriately restricted. "Onsite personnel" are full- and part-time employees, temporary employees, contractors, and consultants who are physically present on the entity's premises. "Visitors" are vendors and guests that enter the facility for a short duration - usually up to one day. "Media" is all paper and electronic media containing cardholder data.
 
 - 9.1 Use appropriate facility entry controls to limit and monitor physical access to systems in the cardholder data environment.
 - 9.2 Develop procedures to easily distinguish between onsite personnel and visitors, especially in areas where cardholder data is accessible.
-
-This Guide provides supplemental information that does not replace or supersede PCI SSC Security Standards or their supporting documents.
-
-## GIve eveRy USeR a UNIQUe ID
-
-<!-- image -->
-
-Every user with access to the Cardholder Data Environment must have a unique ID. This allows a business to trace every action to a specific individual.
-
-19
-
 - 9.3 Ensure all visitors are authorized before entering areas where cardholder data is processed or maintained; given a physical token that expires and that identifies visitors as not onsite personnel; and are asked to surrender the physical token before leaving the facility or at the date of expiration.
 - 9.4 Use a visitor log to maintain a physical audit trail of visitor information and activity, including visitor name and company, and the onsite personnel authorizing physical access. Retain the log for at least three months unless otherwise restricted by law.
 - 9.5 Store media back-ups in a secure location, preferably off site.
@@ -411,23 +404,19 @@ Every user with access to the Cardholder Data Environment must have a unique ID.
 - 9.9 Maintain strict control over the storage and accessibility of media.
 - 9.10 Destroy media when it is no longer needed for business or legal reasons.
 
+## PHYSICALLY SECURE THE PAYMENT SYSTEM
+
+Businesses must physically secure or restrict access to printouts of cardholder data, to media where it is stored, and to devices used for accessing or storing cardholder data. It's important to understand that PCI DSS is about protecting both electronic data and paper receipts as well.
+
 ## Regularly Monitor and Test Networks
 
 Physical and wireless networks are the glue connecting all endpoints and servers in the payment infrastructure. Vulnerabilities in network devices and systems present opportunities for criminals to gain unauthorized access to payment card applications and cardholder data. To prevent exploitation, organizations must regularly monitor and test networks to find and fix vulnerabilities.
 
-This Guide provides supplemental information that does not replace or supersede PCI SSC Security Standards or their supporting documents.
-
-20
-
-## PhySICaLLy SeCURe The PayMeNT SySTeM
-
-<!-- image -->
-
-Businesses must physically secure or restrict access to printouts of cardholder data, to media where it is stored, and to devices used for accessing or storing cardholder data. It's important to understand that PCI DSS is about protecting both electronic data and paper receipts as well.
-
-Illustration: Wikimedia Commons
-
 ## Requirement 10: Track and monitor all access to network resources and cardholder data
+
+## MONITOR ALL ACTIVITY
+
+Organizations must track and monitor all access to cardholder data and related network resources - in stores, regional offices, headquarters, and other remote access.
 
 Logging mechanisms and the ability to track user activities are critical for effective forensics and vulnerability management. The presence of logs in all environments allows thorough tracking and analysis if something goes wrong. Determining the cause of a compromise is very difficult without system activity logs.
 
@@ -439,18 +428,6 @@ Logging mechanisms and the ability to track user activities are critical for eff
 - 10.6 Review logs for all system components related to security functions at least daily.
 - 10.7 Retain audit trail history for at least one year; at least three months of history must be immediately available for analysis.
 
-This Guide provides supplemental information that does not replace or supersede PCI SSC Security Standards or their supporting documents.
-
-## MoNIToR aLL aCTIvITy
-
-<!-- image -->
-
-Organizations must track and monitor all access to cardholder data and related network resources - in stores, regional offices, headquarters, and other remote access.
-
-Photo: Wikimedia Commons
-
-21
-
 ## Requirement 11: Regularly test security systems and processes
 
 Vulnerabilities are being discovered continually by malicious individuals and researchers, and being introduced by new software. System components, processes, and custom software should be tested frequently to ensure security is maintained over time. Testing of security controls is especially important for any environmental changes such as deploying new software or changing system configurations.
@@ -461,11 +438,11 @@ Vulnerabilities are being discovered continually by malicious individuals and re
 - 11.4 Use network intrusion detection systems and/or intrusion prevention systems to monitor all traffic at the perimeter of the cardholder data environment as well as at critical points inside of the cardholder data environment, and alert personnel to suspected compromises. IDS/IPS engines, baselines, and signatures must be kept up to date.
 - 11.5 Deploy file integrity monitoring tools to alert personnel to unauthorized modification of critical system files, configuration files or content files. Configure the software to perform critical file comparisons at least weekly.
 
-This Guide provides supplemental information that does not replace or supersede PCI SSC Security Standards or their supporting documents.
+## Maintain an Information Security Policy
 
-22
+A strong security policy sets the tone for security affecting an organization's entire company, and it informs employees of their expected duties related to security. All employees should be aware of the sensitivity of cardholder data and their responsibilities for protecting it.
 
-## SeveRITy LeveLS FoR vULNeRaBILITy SCaNNING
+## SEVERITY LEVELS FOR VULNERABILITY SCANNING
 
 | CVSS  Score        | Severity  Level   | Scan  Results   |
 |--------------------|-------------------|-----------------|
@@ -473,11 +450,7 @@ This Guide provides supplemental information that does not replace or supersede 
 | 4.0  through  6.9  | Medium  Severity  | Fail            |
 | 0.0  through  3.9  | Low  Severity     | Pass            |
 
-"To demonstrate compliance, a scan must not contain highlevel vulnerabilities in any component in the cardholder data environment. Generally, to be considered compliant, none of those components may contain any vulnerability that has been assigned a Common Vulnerability Scoring System (CVSS) base score equal to or higher than 4.0."
-
-## Maintain an Information Security Policy
-
-A strong security policy sets the tone for security affecting an organization's entire company, and it informs employees of their expected duties related to security. All employees should be aware of the sensitivity of cardholder data and their responsibilities for protecting it.
+"To demonstrate compliance, a scan must not contain highlevel vulnerabilities in any component in the cardholder data environment. Generally, to be considered compliant, none of those components may contain any vulnerability that has been assigned a Common Vulnerability Scoring System (CVSS) base score equal to or higher than 4.0. PCI DSS represents the best available framework to guide better protection of cardholder data. It also presents an opportunity to leverage cardholder data security achieved through PCI DSS compliance for better protection of other sensitive business data - and to address compliance with other standards and regulations." - AberdeenGroup IT Industry Analyst
 
 ## Requirement 12: Maintain a policy that addresses information security for all personnel
 
@@ -488,15 +461,6 @@ A strong security policy sets the tone for security affecting an organization's 
 - 12.5 Assign to an individual or team information security responsibilities defined by 12.5 subsections.
 - 12.6 Implement a formal security awareness program to make all personnel aware of the importance of cardholder data security.
 - 12.7 Screen potential personnel prior to hire to minimize the risk of attacks from internal sources. Example screening includes previous employment history, criminal record, credit history, and reference checks.
-
-This Guide provides supplemental information that does not replace or supersede PCI SSC Security Standards or their supporting documents.
-
-"PCI DSS represents the best available framework to guide better protection of cardholder data. It also presents an opportunity to leverage cardholder data security achieved through PCI DSS compliance for better protection of other sensitive business data - and to address compliance with other standards and regulations."
-
-AberdeenGroup IT Industry Analyst
-
-23
-
 - 12.8 If cardholder data is shared with service providers, maintain policies and procedures to formally identify service provider responsibilities for securing cardholder data, and monitor service providers' PCI DSS compliance status at least annually.
 - 12.9 Implement an incident response plan. Be prepared to respond immediately to a system breach.
 
@@ -504,11 +468,8 @@ AberdeenGroup IT Industry Analyst
 
 Compensating controls may be considered for most PCI DSS requirements when an entity cannot meet a requirement explicitly as stated, due to legitimate technical or documented business constraints, but has sufficiently mitigated the risk associated with the requirement through implementation of compensating controls. In order for a compensating control to be considered valid, it must be reviewed by a qualified assessor. The effectiveness of a compensating control is dependent on the specifics of the environment in which the control is implemented, the surrounding security controls, and the configuration of the control. Entities should be aware that a particular compensating control will not be effective in all environments. See PCI DSS, Appendices B and C for details.
 
-This Guide provides supplemental information that does not replace or supersede PCI SSC Security Standards or their supporting documents.
 
-24
-
-## how to Comply with PCI DSS
+## How to Comply with PCI DSS
 
 Merchants and other entities that store, process and/or transmit cardholder data must comply with PCI DSS. While the Council is responsible for managing the data security standards, each payment card brand maintains its own separate compliance enforcement programs. Each payment card brand has defined specific requirements for compliance validation and reporting, such as provisions for performing self-assessments and when to engage a QSA.
 
@@ -520,12 +481,6 @@ Depending on an entity's classification or risk level (determined by the individ
 - 4. Reporting - assessor and/or entity submits required documentation
 - 5. Clarifications - assessor and/or entity clarifies/updates report statements (if applicable) upon request of the acquiring bank or payment card brand
 
-This Guide provides supplemental information that does not replace or supersede PCI SSC Security Standards or their supporting documents.
-
-How to Comply With PCI DSS
-
-25
-
 Specific questions about compliance validation levels should be directed to your acquiring financial institution or payment card brand. Only the acquiring financial institution can assign a validation level to merchants. Links to card brand compliance programs include:
 
 - · American Express: · www.americanexpress.com/datasecurity
@@ -533,6 +488,14 @@ Specific questions about compliance validation levels should be directed to your
 - · JCB International: · www.jcb-global.com/english/pci/index.html
 - · MasterCard Worldwide: · www.mastercard.com/sdp
 - · Visa Inc: · www.visa.com/cisp Visa Europe: · www.visaeurope.com/ais
+
+## PREPARING FOR A PCI DSS ASSESSMENT
+
+Gather Documentation: Security policies, change control records, operational procedures, network diagrams, PCI DSS letters and notifications
+
+Schedule Resources: Ensure participation of a project manager and key people from IT, security applications, business operations, human resources and legal
+
+Describe the Environment: Organize information about the cardholder data environment, including cardholder data flows and locations of cardholder data repositories
 
 ## Choosing a Qualified Security assessor
 
@@ -549,37 +512,19 @@ A Qualified Security Assessor (QSA) is a data security firm that has been traine
 - · Evaluate compensating controls
 - · Produce the final report
 
-This Guide provides supplemental information that does not replace or supersede PCI SSC Security Standards or their supporting documents.
-
-26
-
-## PRePaRING FoR a PCI DSS aSSeSSMeNT
-
-<!-- image -->
-
-Gather Documentation: Security policies, change control records, operational procedures, network diagrams, PCI DSS letters and notifications
-
-Schedule Resources: Ensure participation of a project manager and key people from IT, security applications, business operations, human resources and legal
-
-Describe the Environment: Organize information about the cardholder data environment, including cardholder data flows and locations of cardholder data repositories
-
-The QSA you select should have solid understanding of your business and have experience in assessing the security of similar organizations. That knowledge helps the QSA to understand business sectorspecific nuances of securing cardholder data under PCI DSS. Also, look for a good fit with your company's culture. The assessment will conclude whether you are compliant or not - but the QSA will also work with your organization to help you understand how to achieve and maintain compliance. Many QSAs also can provide additional security-related services such as ongoing vulnerability assessment and remediation. A list of QSAs is available at www.pcisecuritystandards.org/approved\_companies\_ providers/qsa\_companies.php.
+The QSA you select should have solid understanding of your business and have experience in assessing the security of similar organizations. That knowledge helps the QSA to understand business sectorspecific nuances of securing cardholder data under PCI DSS. Also, look for a good fit with your company's culture. The assessment will conclude whether you are compliant or not - but the QSA will also work with your organization to help you understand how to achieve and maintain compliance. Many QSAs also can provide additional security-related services such as ongoing vulnerability assessment and remediation. A list of QSAs is available at www.pcisecuritystandards.org/approved_companies_ providers/qsa_companies.php.
 
 ## Choosing an approved Scanning vendor
 
 An Approved Scanning Vendor (ASV) is a data security firm using a scanning solution to determine whether or not the customer is compliant with the PCI DSS external vulnerability scanning requirement. ASVs have been trained and are qualified by the PCI Security Standards Council to perform external network and system scans as required by the PCI DSS. An ASV may use its own software or an approved commercial or open source solution to validate compliance. ASV solutions must be non-disruptive to customers' systems and data - they must never cause a system reboot, or interfere with or change domain name server (DNS) routing, switching, or address resolution. Root-kits or other software should not be installed unless part of the solution and pre-approved by the customer. Tests not permitted by the ASV solution include denial of service, buffer overflow, brute force attack resulting in a password lockout, or excessive usage of available communication bandwidth.
 
-An ASV scanning solution includes the scanning tool(s), the associated scanning report, and the process for exchanging information between the scanning vendor and the customer. ASVs may submit compliance reports to the acquiring institution on behalf of a merchant or service provider. A list of ASVs is available at www.pcisecuritystandards.org/approved\_companies\_providers/approved\_ scanning\_vendors.php.
+An ASV scanning solution includes the scanning tool(s), the associated scanning report, and the process for exchanging information between the scanning vendor and the customer. ASVs may submit compliance reports to the acquiring institution on behalf of a merchant or service provider. A list of ASVs is available at www.pcisecuritystandards.org/approved_companies_providers/approved_ scanning_vendors.php.
 
-This Guide provides supplemental information that does not replace or supersede PCI SSC Security Standards or their supporting documents.
-
-## ISa PRoGRaM
+## ISA PROGRAM
 
 The PCI SSC Internal Security Assessor (ISA) Program provides an opportunity for eligible internal security assessment professionals of qualifying organizations to receive PCI DSS training and certification that will improve the organization's understanding of the PCI DSS, facilitate the organization's interactions with QSAs, enhance the quality, reliability, and consistency of the organization's internal PCI DSS self-assessments, and support the consistent and proper application of PCI DSS measures and controls.
 
-Please see the PCI SSC web site for details - www. pcisecuritystandards.org/ approved\_companies\_providers/ internal\_security\_assessors.php
-
-27
+Please see the PCI SSC web site for details - www. pcisecuritystandards.org/ approved_companies_providers/internal_security_assessors.php
 
 ## Scope of assessment for Compliance
 
@@ -591,10 +536,6 @@ Scoping must occur at least annually and prior to the annual assessment. Merchan
 - · Once all locations of cardholder data are identified and documented, the entity uses the results to verify that PCI DSS scope is appropriate (for example, the results may be a diagram or an inventory of cardholder data locations).
 - · The entity considers any cardholder data found to be in scope of the PCI DSS assessment and part of the CDE unless such data is deleted or migrated/consolidated into the currently defined CDE.
 - · The entity retains documentation that shows how PCI DSS scope was confirmed and the results, for assessor review and/or for reference during the next annual PCI SCC scope confirmation activity.
-
-This Guide provides supplemental information that does not replace or supersede PCI SSC Security Standards or their supporting documents.
-
-28
 
 ## Network Segmentation
 
@@ -608,10 +549,6 @@ The assessor may independently select representative examples of business facili
 
 On an annual basis, any compensating controls must be documented, reviewed, and validated by the assessor and included with the Report on Compliance. For more information on compensating controls, see PCI DSS Appendix B: Compensating Controls and Appendix C: Compensating Controls Worksheet.
 
-This Guide provides supplemental information that does not replace or supersede PCI SSC Security Standards or their supporting documents.
-
-29
-
 ## Using the Self-assessment Questionnaire (SaQ)
 
 The SAQ is a validation tool for eligible merchants and service providers who self-assess their PCI DSS compliance and who are not required to submit a Report on Compliance (ROC). The SAQ includes a series of yes-or-no questions for compliance. If an answer is no, the organization must state the future remediation date and associated actions. In order to align more closely with merchants and their compliance validation process, the SAQs provide flexibility based on the complexity of particular merchant environments (see chart below). The PCI DSS Self-Assessment Questionnaire Guidelines and Instructions document provides more details on each SAQ type (see www.pcisecuritystandards.org).
@@ -623,10 +560,6 @@ The SAQ is a validation tool for eligible merchants and service providers who se
 | C-VT  | Merchants using only web-based virtual terminals, no electronic cardholder data  storage                                                                                     |
 | C     | Merchants with payment application systems connected to the Internet, no electronic  cardholder data storage                                                                 |
 | D     | All other merchants not included in descriptions for SAQ types A through C above, and  all service providers  defined by a payment card brand as eligible to complete an SAQ |
-
-This Guide provides supplemental information that does not replace or supersede PCI SSC Security Standards or their supporting documents.
-
-30
 
 ## Reporting
 
@@ -643,9 +576,7 @@ The template for an entity's annual Report on Compliance includes the following:
 - 5. Quarterly Scan Results (summary of four most recent ASV scan results)
 - 6. Findings and Observations (detailed findings on each requirement and sub-requirement, including explanations of all N/A responses and validation of all compensating controls)
 
-This Guide provides supplemental information that does not replace or supersede PCI SSC Security Standards or their supporting documents.
-
-## CoMPLIaNCe PRoGRaM
+## COMPLIANCE PROGRAM
 
 ## Assess
 
@@ -659,8 +590,6 @@ You must fix vulnerabilities that threaten unauthorized access to cardholder dat
 
 Report compliance and present evidence that data protection controls are in place
 
-31
-
 Web Resources
 
 ## Web Resources
@@ -669,69 +598,45 @@ PCI Security Standards Council Web site, including Frequently Asked Questions (F
 
 ## Membership Information
 
-www.pcisecuritystandards.org/get\_involved/join.php
+www.pcisecuritystandards.org/get_involved/join.php
 
 ## Training (for assessors)
 
-QSAs: www.pcisecuritystandards.org/training/qsa\_training.php
+QSAs: www.pcisecuritystandards.org/training/qsa_training.php
 
-PA-DSS: www.pcisecuritystandards.org/training/pa-dss\_training.php
+PA-DSS: www.pcisecuritystandards.org/training/pa-dss_training.php
 
 ## PCI SSC approved applications and devices
 
-PIN Transaction Security (PTS) Devices: www.pcisecuritystandards.org/approved\_companies\_providers/approved\_pin\_transaction\_security.php
+PIN Transaction Security (PTS) Devices: www.pcisecuritystandards.org/approved_companies_providers/approved_pin_transaction_security.php
 
-Payment Applications: www.pcisecuritystandards.org/approved\_companies\_providers/validated\_payment\_applications.php
+Payment Applications: www.pcisecuritystandards.org/approved_companies_providers/validated_payment_applications.php
 
 ## PCI Data Security Standard (PCI DSS)
 
-The Standard: https://www.pcisecuritystandards.org/documents/pci\_dss\_v2.pdf
+The Standard: https://www.pcisecuritystandards.org/documents/pci_dss_v2.pdf
 
-Supporting Documents: https://www.pcisecuritystandards.org/security\_standards/documents.php
+Supporting Documents: https://www.pcisecuritystandards.org/security_standards/documents.php
 
-Approved Assessors and Scanning Vendors: https://www.pcisecuritystandards.org/approved\_companies\_providers/index.php
+Approved Assessors and Scanning Vendors: https://www.pcisecuritystandards.org/approved_companies_providers/index.php
 
-Navigating the Standard: https://www.pcisecuritystandards.org/documents/navigating\_dss\_v20.pdf
+Navigating the Standard: https://www.pcisecuritystandards.org/documents/navigating_dss_v20.pdf
 
-Self-Assessment Questionnaire: https://www.pcisecuritystandards.org/merchants/self\_assessment\_form.php
+Self-Assessment Questionnaire: https://www.pcisecuritystandards.org/merchants/self_assessment_form.php
 
-Glossary: https://www.pcisecuritystandards.org/security\_standards/glossary.php
+Glossary: https://www.pcisecuritystandards.org/security_standards/glossary.php
 
-Approved QSAs: https://www.pcisecuritystandards.org/approved\_companies\_providers/qualified\_security\_assessors.php
+Approved QSAs: https://www.pcisecuritystandards.org/approved_companies_providers/qualified_security_assessors.php
 
-Approved ASVs: https://www.pcisecuritystandards.org/approved\_companies\_providers/approved\_scanning\_vendors.php
+Approved ASVs: https://www.pcisecuritystandards.org/approved_companies_providers/approved_scanning_vendors.php
 
-This Guide provides supplemental information that does not replace or supersede PCI SSC Security Standards or their supporting documents.
-
-## Webinars
-
-www.pcisecuritystandards.org/news\_events/events.shtml
-
-32
-
-## about the PCI Security Standards Council
+## About the PCI Security Standards Council
 
 The PCI Security Standards Council (PCI SSC) is a global open body formed to develop, enhance, disseminate and assist with the understanding of security standards for payment account security. The Council maintains, evolves, and promotes the Payment Card Industry security standards. It also provides critical tools needed for implementation of the standards such as assessment and scanning guidelines, a self-assessment questionnaire, training and education, and product certification programs.
 
 The PCI SSC founding members, American Express, Discover Financial Services, JCB International, MasterCard Worldwide, and Visa Inc., have agreed to incorporate the PCI Data Security Standard as part of the technical requirements for each of their data security compliance programs. Each founding member also recognizes the Qualified Security Assessors and Approved Scanning Vendors qualified by the PCI SSC to assess compliance with the PCI DSS.
 
 The PCI SSC's founding member card brands share equally in the Council's governance and operations. Other industry stakeholders participate in reviewing proposed additions or modifications to the standards, including merchants, payment card issuing banks, processors, hardware and software developers, and other vendors.
-
-This Guide provides supplemental information that does not replace or supersede PCI SSC Security Standards or their supporting documents.
-
-## PCI SSC FoUNDeRS
-
-<!-- image -->
-
-<!-- image -->
-
-<!-- image -->
-
-## PaRTICIPaTING oRGaNIzaTIoNS
-
-Merchants, Banks, Processors, Hardware and Software Developers and Point-of-Sale Vendors
-
-33
 
 About the PCI Security Standards Council
 
