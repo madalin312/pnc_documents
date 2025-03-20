@@ -1,6 +1,6 @@
 ## The PNC Financial Services Group, Inc. Corporate Governance Guidelines
 
-(As approved bytheBoard ofDirectorsonNovember7,2024)
+(As approved by the Board of Directors on November7, 2024)
 
 ## Board Responsibilities
 
@@ -24,12 +24,6 @@ The Nominating and Governance Committee has not adopted any specific minimum qua
 - · The strength of character necessary to challenge management's recommendations and actions when appropriate and to confirm the adequacy and completeness of management's responses to such challenges to his or her satisfaction;
 - · The board's strong desire to continue adding diversity in terms of race, gender, professional background, life experience and social identity; and
 
-## The PNC Financial Services Group, Inc. Corporate Governance Guidelines
-
-(As approved bytheBoard of Directors on November7, 2024)
-
-## Board Responsibilities
-
 - · Personal qualities that will help to sustain an atmosphere of mutual respect and collegiality among the members of the board.
 
 The committee also considers the diversity of perspective, experience, knowledge, education, age and skills, as well as the current needs of the board and its committees, meeting attendance and participation, and the value of a director's contributions to the effectiveness of the board and its committees.
@@ -45,12 +39,6 @@ The committee meets to consider relevant information regarding a director candid
 If the committee decides to recommend a candidate to the board as a nominee for election at an annual meeting of shareholders or for appointment by the board, the committee chair reports that decision to the full board. The full board votes on whether to nominate the candidate for election or appoint the candidate to the board, as applicable.
 
 Shareholder Recommendations. The Nominating and Governance Committee also considers director candidates recommended by shareholders for nomination at the next annual meeting of shareholders. For the committee to consider a director candidate for nomination, the shareholder must submit the recommendation in writing by the date disclosed in PNC's proxy statement in accordance with the procedures below.
-
-## The PNC Financial Services Group, Inc. Corporate Governance Guidelines
-
-(As approved by the Board ofDirectors on November7, 2024)
-
-## Board Responsibilities
 
 Submit the recommendation to the PNC Corporate Secretary at the following address:
 
@@ -73,12 +61,6 @@ Include the following information in the written recommendation:
 
 The Nominating and Governance Committee does not consider any candidate with an obvious impediment to serving as a PNC director. Under current practices, the
 
-## The PNC Financial Services Group, Inc. Corporate Governance Guidelines
-
-(As approved by the Board of Directors on November7, 2024)
-
-## Board Responsibilities
-
 committee does not evaluate candidates recommended by a shareholder any differently than candidates recommended by the committee.
 
 ## 4. Board Leadership
@@ -99,12 +81,6 @@ The Presiding Director is an independent director who also serves as the chair o
 - · If the board includes non-management directors who are not independent, when the Presiding Director considers it appropriate to do so, convene and preside at meetings or executive sessions including such non-management directors.
 - · Confer with the Chair or the CEO immediately following the meetings or executive sessions of the board's independent or non-management directors to convey the substance of the discussions held during those sessions, subject to any limitations specified by the independent directors.
 - · Act as the principal liaison between the Chair and the CEO and the board's independent and non-management directors.
-
-## The PNC Financial Services Group, Inc. Corporate Governance Guidelines
-
-(As approved by the Board of Directors on November7, 2024)
-
-## Board Responsibilities
 
 - · Be available for confidential discussions with any director who may have concerns that he or she believes have not been properly considered by the board.
 - · Following consultation with the Chair, CEO and other directors as appropriate, approve the board's meeting agendas in order to promote the effectiveness of the board's operation and decision making and help ensure that there is sufficient time for discussion of all agenda items.
@@ -127,12 +103,6 @@ The board reviews management succession plans at least annually. The board works
 
 The board has ultimate oversight of PNC's strategy, including the risks and opportunities flowing from the environmental, social and governance issues material to PNC's business. The full board oversees such matters directly, informed by each
 
-## The PNC Financial Services Group, Inc. Corporate Governance Guidelines
-
-(As approved by the Board of Directors on November7, 2024)
-
-## Board Responsibilities
-
 committees' oversight of the corporate responsibility matters within its purview, as set forth in its charter. For example, the Nominating and Governance Committee generally oversees governance-related matters and the Human Resources Committee generally oversees talent-related matters, with other corporate responsibility matters generally overseen by the Corporate Responsibility Committee. Given the highly integrated nature of environmental concerns, including significant climate change issues, the full board oversees these matters as informed by insights from its committees. As an example, climate-related risks are within the purview of the Risk Committee and are an important component of the board's overall approach to environmental strategy, along with inputs from other committees. The board reviews the Corporate Responsibility strategic plan annually, receives updates on corporate responsibility matters at least quarterly, and provides guidance to management with respect to such matters.
 
 ## 9. Management Performance
@@ -148,12 +118,6 @@ The board conducts an annual self-evaluation to assess its performance and deter
 ## 11. Non-Employee Director Compensation
 
 The Nominating and Governance Committee conducts an annual review of director compensation. The form and amount of non-employee director compensation will provide reasonable compensation commensurate with the duties of a director, reflect PNC's desire to attract and retain the highest quality individuals to serve on the board and comply with any NYSE or other applicable rules. Directors who are employees of PNC do not receive any additional compensation for service as a director.
-
-## The PNC Financial Services Group, Inc. Corporate Governance Guidelines
-
-(As approved by the Board of Directors on November7, 2024)
-
-## Board Responsibilities
 
 ## 12. Code of Ethics
 
@@ -175,12 +139,6 @@ At least annually, the board evaluates independence for each director and broadl
 
 The board has adopted guidance to assist it in making determinations of independence. The current guidance is set forth in Exhibit A.
 
-## The PNC Financial Services Group, Inc. Corporate Governance Guidelines
-
-(As approved by the Board of Directors on November7, 2024)
-
-## Board Composition
-
 ## 15. Majority Voting Requirement
 
 As described in more detail in PNC's bylaws, if an incumbent director does not receive a majority of the votes cast at a meeting for the uncontested election of directors, the director shall promptly tender his or her resignation to the board.
@@ -198,12 +156,6 @@ These corporate governance guidelines are summarized or included in each proxy s
 The board has not established term limits for directors. While term limits could bring new points of view to the board, the board believes that term limits prevent valuable contributions from directors who have developed increasing insight into PNC over the course of their tenure.
 
 The board has established a mandatory retirement age. A person who is age 75 or older may not be appointed to the board or be nominated for election or reelection as a director at the next annual meeting of shareholders after his or her 75th birthday, subject to board approval of a waiver of the mandatory retirement age when determined by the board to be in the best interests of the company and its shareholders.
-
-## The PNC Financial Services Group, Inc. Corporate Governance Guidelines
-
-(As approved by the Board of Directors on November7, 2024)
-
-## Board Composition
 
 ## 17. Change in Principal Occupation
 
@@ -231,12 +183,6 @@ The board performs its work with the assistance of committees and subcommittees 
 - . Risk
 - · Executive
 
-## The PNC Financial Services Group, Inc. Corporate Governance Guidelines
-
-(As approved by the Board of Directors on November7, 2024)
-
-## Board Operations
-
 All members of the Audit, Nominating and Governance, and Human Resources Committees are independent directors under the criteria established by the NYSE and all other applicable laws, rules and regulations regarding director independence for members of a specific committee. The board may have additional standing and temporary committees or subcommittees as necessary, advisable or appropriate. In general, committee members are appointed by the board upon the recommendation of the Nominating and Governance Committee, with consideration of the desires of individual directors. It is the board's sense that consideration should be given to rotating committee members periodically, but the board has not adopted a policy that mandates rotation of committee membership.
 
 Each committee has its own charter that complies with the NYSE corporate governance listing standards and any other applicable laws, rules and regulations. Each charter sets forth the purposes and responsibilities of the committee as well as legal or other requirements affecting the committee, the source of the committee's authority, minimum membership, membership requirements, the minimum number of meetings per year and procedures for committee member appointment. The charters also address committee reporting to the board and provide for periodic committee selfevaluation.
@@ -250,12 +196,6 @@ The board and each committee have the authority to hire, at the expense of PNC, 
 Certain committees may meet simultaneously as committees of PNC and the principal banking subsidiary of PNC. These committees should hold separate sessions, if necessary, appropriate or advisable, to address issues relevant to one entity but not the other or to consider transactions between the two entities or other matters where PNC and the banking subsidiary may have different interests.
 
 In addition, any such committee should consult with internal or outside counsel if, in the opinion of the committee, any matter under consideration by the committee has the potential for any conflict between the interests of PNC and those of any subsidiary bank or PNC's other subsidiaries in order to help ensure that appropriate procedures
-
-## The PNC Financial Services Group, Inc. Corporate Governance Guidelines
-
-(As approved by the Board of Directors on November7, 2024)
-
-## Board Operations
 
 are established for addressing any such potential conflict and for helping to ensure compliance with PNC's policies regarding Sections 23A and 23B of the Federal Reserve Act.
 
@@ -279,12 +219,6 @@ The board welcomes regular attendance at meetings from appropriate members of ma
 
 Directors have full and free access to PNC officers and employees. A director may arrange for meetings or other contact directly or through the CEO or Corporate Secretary. The directors should exercise judgment to help ensure that any such contact is not disruptive to the business operations of PNC and, to the extent not inappropriate, copy the CEO on any written communications between a director and an employee of PNC.
 
-## The PNC Financial Services Group, Inc. Corporate Governance Guidelines
-
-(As approved by the Board of Directors on November7, 2024)
-
-## Board Operations
-
 ## 24. Indemnification and Exculpation
 
 The directors are entitled to have PNC purchase reasonable directors' and officers' liability insurance on their behalf, to the benefits of indemnification to the fullest extent permitted by law and PNC's articles of incorporation, bylaws and any indemnification agreements, and to exculpation as provided by state law and PNC's articles of incorporation and bylaws.
@@ -298,12 +232,6 @@ The orientation program consists primarily of a comprehensive package of informa
 In addition, new directors are given the opportunity to tour PNC facilities and to review marketing materials and videos about PNC products and initiatives and may be invited to attend various committee meetings prior to being appointed to a committee to familiarize themselves with the associated responsibilities and functioning.
 
 The continuing education program considers the directors' knowledge and experience and PNC's risk profile, and includes training on complex products and services, PNC's lines of business, significant risks to PNC, appropriate laws, regulations and supervisory requirements, and other topics identified by the board and management. It is provided through a combination of personalized sessions and coordination of attendance by directors at outside seminars, including those offered by regulators, relevant to the duties of a director. Certain training sessions may be held in connection with, or as part of, a meeting of the board or a committee.
-
-## The PNC Financial Services Group, Inc. Corporate Governance Guidelines
-
-(As approved by the Board of Directors on November7, 2024)
-
-## Board Operations
 
 ## 26. Communicating with Shareholders and the Public
 
@@ -323,10 +251,6 @@ The Corporate Secretary may elect not to forward communications that he or she b
 
 Documents sent by mail not addressed to directors as described above are reviewed by the Corporate Secretary's office and handled as determined appropriate based on the nature of the communication and the policies and procedures that specify the proper handling of such communications.
 
-## The PNC Financial Services Group, Inc. Corporate Governance Guidelines
-
-(Asapproved by the Board of Directors on November7, 2024)
-
 ## Corporate Governance Guidelines Director Independence Guidelines (Exhibit A)
 
 None of the relationships described below shall be deemed to be a "material relationship" between a director and The PNC Financial Services Group, Inc. (the "Corporation") and thus a director having such a relationship may be deemed to be independent for NYSE purposes, provided that the director otherwise meets the mandatory independence standards set forth in Section 303A.02(b) of the NYSE Listed Company Manual.
@@ -337,12 +261,6 @@ None of the relationships described below shall be deemed to be a "material rela
 - c. the payments (including any interest payments and fees) do not exceed, in a single fiscal year, the greater of $1 million or 2% of the consolidated gross revenues of the Corporation or the other company or charitable organization.
 - 2. Relationships with Charitable Organizations . A contribution made or pledged by the Corporation, its subsidiaries, or by any foundation sponsored by or associated with the Corporation or its subsidiaries to a charitable organization of which a director or an immediate family member is an executive officer, director or trustee will not be considered a material relationship if the following conditions are satisfied:
 - a. within the past three years, the aggregate amount of all such contributions during any single fiscal year of the charitable organization did not exceed the greater of $1 million or 2% of the charitable organization's consolidated gross revenues for that fiscal year (with any contributions made or pledged pursuant to a matching gift program not considered to be a "material relationship" and not included in calculating this amount); and
-
-## The PNC Financial Services Group, Inc. Corporate Governance Guidelines
-
-(As approved by the Board of Directors on November7, 2024)
-
-## Corporate Governance Guidelines Director Independence Guidelines (Exhibit A)
 
 - b. the charitable organization is not a family foundation created by the director or an immediate family member.
 - 3. Family Relationships . A relationship involving a director's relative will not be considered a material relationship solely by virtue of the familial relationship if the relative is not an immediate family member of the director.
