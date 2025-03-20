@@ -1,54 +1,3 @@
-
-
-
-
-## PCI DSS Quick Reference Guide
-
-Understanding the Payment Card Industry Data Security Standard version 2.0
-
-For merchants and entities that store, process or transmit cardholder data
-
-Contents
-
-## Copyright 2010 PCI Security Standards Council, LLC. All Rights Reserved.
-
-This Quick Reference Guide to the PCI Data Security Standard is provided by the PCI Security Standards Council to inform and educate merchants and other entities that process, store or transmit cardholder data. For more information about the PCI SSC and the standards we manage, please visit www.pcisecuritystandards.org.
-
-The intent of this document is to provide supplemental information, which does not replace or supersede PCI Security Standards Council standards or their supporting documents. Full details can be found on our Web site.
-
-October 2010
-
-## Contents
-
-| Introduction: Protecting Cardholder Data with PCI Security Standards ...........................4                                                            | Introduction: Protecting Cardholder Data with PCI Security Standards ...........................4   |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Overview of PCI Requirements............................................................................................6                                    |                                                                                                     |
-| The PCI Data Security Standard ........................................................................................................... 8                 |                                                                                                     |
-| PIN Transaction Security Requirements ..........................................................................................10                           |                                                                                                     |
-| Payment Application Data Security Standard ...............................................................................10                                 |                                                                                                     |
-| Security Controls and Processes for PCI DSS Requirements.............................................11                                                      |                                                                                                     |
-| Build and Maintain a Secure Network ..............................................................................................12                         |                                                                                                     |
-| Protect Cardholder Data ......................................................................................................................14             |                                                                                                     |
-| Maintain a Vulnerability Management Program ...........................................................................16                                    |                                                                                                     |
-| Implement Strong Access Control Measures..................................................................................18                                 |                                                                                                     |
-| Regularly Monitor and Test Networks ..............................................................................................20                         |                                                                                                     |
-| Maintain an Information Security Policy .........................................................................................23                          |                                                                                                     |
-| Compensating Controls for PCI DSS Requirements ......................................................................24                                      |                                                                                                     |
-| How to Comply with PCI DSS .............................................................................................25                                   |                                                                                                     |
-| Choosing a Qualified Security Assessor ...........................................................................................26                         |                                                                                                     |
-| Choosing an Approved Scanning Vendor........................................................................................27                               |                                                                                                     |
-| Scope of Assessment for Compliance...............................................................................................28                          |                                                                                                     |
-| Using the Self-Assessment Questionnaire (SAQ)...........................................................................30                                   |                                                                                                     |
-| Reporting.................................................................................................................................................31 |                                                                                                     |
-| Web Resources ...................................................................................................................32                          |                                                                                                     |
-| About the PCI Security Standards Council ........................................................................33                                          |                                                                                                     |
-
-
-
-Introduction
-
-3
-
 ## Introduction: Protecting Cardholder Data with PCI Security Standards
 
 The twentieth century U.S. criminal Willie Sutton was said to rob banks because "that's where the money is."The same motivation in our digital age makes merchants the new target for financial fraud. Occasionally lax security by some merchants enables criminals to easily steal and use personal consumer financial information from payment card transactions and processing systems.
@@ -59,25 +8,18 @@ Merchant-based vulnerabilities may appear almost anywhere in the card-processing
 
 Compliance with the Payment Card Industry (PCI) Data Security Standard (DSS) helps to alleviate these vulnerabilities and protect cardholder data.
 
+This Guide provides supplemental information that does not replace or supersede PCI SSC Security Standards or their supporting documents.
 
-
-4
-
-## RISky BehavIoR
+### Risky Behavior
 
 A survey of businesses in the U.S. and Europe reveals activities that may put cardholder data at risk.
 
-81% store payment card numbers
-
-73% store payment card expiration dates
-
-71% store payment card verification codes
-
-57% store customer data from the payment card magnetic stripe 16% store other personal data
+- 81% store payment card numbers
+- 73% store payment card expiration dates
+- 71% store payment card verification codes
+- 57% store customer data from the payment card magnetic stripe 16% store other personal data
 
 Source: Forrester Consulting: The State of PCI Compliance (commissioned by RSA/EMC)
-
-
 
 The intent of this PCI DSS Quick Reference Guide is to help you understand the PCI DSS and to apply it to your payment card transaction environment.
 
@@ -85,53 +27,17 @@ There are three ongoing steps for adhering to the PCI DSS: Assess - identifying 
 
 PCI DSS follows common sense steps that mirror best security practices. The DSS globally applies to all entities that store, process or transmit cardholder data. PCI DSS and related security standards are administered by the PCI Security Standards Council, which was founded by American Express, Discover Financial Services, JCB International, MasterCard Worldwide and Visa Inc. Participating Organizations include merchants, payment card issuing banks, processors, developers and other vendors.
 
-
-
-Overview of PCI Requirements
-
-PCI DSS COMPLIANCE IS A CONTINUOUS PROCESS
-
-ASSESS
-
-REMEDIATE
-
-REPORT
-
-5
-
-## overview of PCI Requirements
+## Overview of PCI Requirements
 
 PCI security standards are technical and operational requirements set by the PCI Security Standards Council (PCI SSC) to protect cardholder data. The standards apply to all entities that store, process or transmit cardholder data - with guidance for software developers and manufacturers of applications and devices used in those transactions. The Council is responsible for managing the security standards, while compliance with the PCI set of standards is enforced by the founding members of the Council, American Express, Discover Financial Services, JCB International, MasterCard Worldwide and Visa Inc.
 
-## PAYMENT CARD INDUSTRY SECURITY STANDARDS
+PCI Security Standards Include:
 
-Protection of Cardholder Payment Data
+- PCI Data Security Standard (DSS). The PCI DSS applies to all entities that store, process, and/or transmit cardholder data. It covers technical and operational system components included in or connected to cardholder data. If you are a merchant who accepts or processes payment cards, you must comply with the PCI DSS.
 
+- PIN Transaction Security (PTS) Requirements. The PCI PTS (formerly PCI PED) is a set of security requirements focused on characteristics and management of devices used in the protection of cardholder PINs and other payment processing related activities. The requirements are for manufacturers to follow in the design, manufacture and transport of a device to the entity that implements it. Financial institutions, processors, merchants and service providers should only use devices or components that are tested and approved by the PCI SSC (www.pcisecuritystandards.org/approved\_companies\_providers/approved\_pin\_transaction\_security.php).
 
-
-
-
-6
-
-## PCI Security Standards Include:
-
-## PCI Data Security Standard (DSS)
-
-The PCI DSS applies to all entities that store, process, and/or transmit cardholder data. It covers technical and operational system components included in or connected to cardholder data. If you are a merchant who accepts or processes payment cards, you must comply with the PCI DSS.
-
-## PIN Transaction Security (PTS) Requirements
-
-The PCI PTS (formerly PCI PED) is a set of security requirements focused on characteristics and management of devices used in the protection of cardholder PINs and other payment processing related activities. The requirements are for manufacturers to follow in the design, manufacture and transport of a device to the entity that implements it. Financial institutions, processors, merchants and service providers should only use devices or components that are tested and approved by the PCI SSC (www.pcisecuritystandards.org/approved_companies_providers/approved_pin_transaction_security.php).
-
-## Payment Application Data Security Standard (PA-DSS)
-
-The PA-DSS is for software developers and integrators of payment applications that store, process or transmit cardholder data as part of authorization or settlement when these applications are sold, distributed or licensed to third parties. Most card brands encourage merchants to use payment applications that are tested and approved by the PCI SSC. Validated applications are listed at: www.pcisecuritystandards.org/approved_companies_providers/validated_payment_applications.php
-
-The Council monitors new threats to cardholder data and may issue information supplements and other guidance for compliance. Changes to the PCI Security Standards follow a three-year lifecycle; the newest (version 2.0) was published in October 2010. For more information on the lifecycle, see: www.pcisecuritystandards.org/pdfs/pci_lifecycle_for_changes_to_dss_and_padss.pdf
-
-
-
-7
+- Payment Application Data Security Standard (PA-DSS). The PA-DSS is for software developers and integrators of payment applications that store, process or transmit cardholder data as part of authorization or settlement when these applications are sold, distributed or licensed to third parties. Most card brands encourage merchants to use payment applications that are tested and approved by the PCI SSC. Validated applications are listed at: www.pcisecuritystandards.org/approved\_companies\_providers/validated\_payment\_applications.php. The Council monitors new threats to cardholder data and may issue information supplements and other guidance for compliance. Changes to the PCI Security Standards follow a three-year lifecycle; the newest (version 2.0) was published in October 2010. For more information on the lifecycle, see: www.pcisecuritystandards.org/pdfs/pci\_lifecycle\_for\_changes\_to\_dss\_and\_padss.pdf
 
 ## The PCI Data Security Standard
 
@@ -144,60 +50,39 @@ PCI DSS is the global data security standard adopted by the payment card brands 
 | Maintain a Vulnerability  Management Program | 5. Use and regularly update anti-virus software or programs 6. Develop and maintain secure systems and applications                                                     |
 | Implement Strong Access  Control Measures    | 7. Restrict access to cardholder data by business need to know 8. Assign a unique ID to each person with computer access 9. Restrict physical access to cardholder data |
 | Regularly Monitor and Test  Networks         | 10. Track and monitor all access to network resources and cardholder data 11. Regularly test security systems and processes                                             |
-| Maintain an Information  Security Policy     | Maintain a policy that addresses information security for all personnel                                                                                                 |
-|                                              | 12.                                                                                                                                                                     |
+| Maintain an Information  Security Policy     | 12. Maintain a policy that addresses information security for all personnel |
 
-
-
-8
-
-## Tools for assessing Compliance with PCI DSS
+### Tools for assessing Compliance with PCI DSS
 
 The PCI SSC sets the PCI security standards, but each payment card brand has its own program for compliance, validation levels and enforcement. More information about compliance can be found at these links:
 
-- · American Express: · www.americanexpress.com/datasecurity
-- · Discover Financial Services: · www.discovernetwork.com/fraudsecurity/disc.html
-- · JCB International: · www.jcb-global.com/english/pci/index.html
-- · MasterCard Worldwide: · www.mastercard.com/sdp
-- · Visa Inc: · www.visa.com/cisp Visa Europe: · www.visaeurope.com/ais
+- American Express: · www.americanexpress.com/datasecurity
+- Discover Financial Services: · www.discovernetwork.com/fraudsecurity/disc.html
+- JCB International: · www.jcb-global.com/english/pci/index.html
+- MasterCard Worldwide: · www.mastercard.com/sdp
+- Visa Inc: · www.visa.com/cisp Visa Europe: · www.visaeurope.com/ais
 
-Qualified assessors. The Council manages programs that will help facilitate the assessment of compliance with PCI DSS: Qualified Security Assessor (QSA) and Approved Scanning Vendor (ASV). QSAs are approved by the Council to assess compliance with the PCI DSS. ASVs are approved by the Council to validate adherence to the PCI DSS scan requirements by performing vulnerability scans of Internetfacing environments of merchants and service providers. The Council also provides PCI DSS training for Internal Security Assessors (ISAs). Additional details can be found on our Web site at: www.pcisecuritystandards.org/approved_companies_providers/index.php
+Qualified assessors. The Council manages programs that will help facilitate the assessment of compliance with PCI DSS: Qualified Security Assessor (QSA) and Approved Scanning Vendor (ASV). QSAs are approved by the Council to assess compliance with the PCI DSS. ASVs are approved by the Council to validate adherence to the PCI DSS scan requirements by performing vulnerability scans of Internetfacing environments of merchants and service providers. The Council also provides PCI DSS training for Internal Security Assessors (ISAs). Additional details can be found on our Web site at: www.pcisecuritystandards.org/approved\_companies\_providers/index.php
 
 Self-assessment Questionnaire. The Self-Assessment Questionnaire (SAQ) is a validation tool for eligible organizations who self-assess their PCI DSS compliance and who are not required to submit a Report on Compliance (ROC). Different SAQs are available for various business environments; more details can be found on our web site at: www.pcisecuritystandards.org. An organization's acquiring financial institution or payment brand can also determine if you should complete an SAQ.
 
-
-
-9
-
 ## PIN Transaction Security Requirements
 
-These requirements, referred to as PCI PTS (formerly PCI PED), applies to companies which make devices or components that accept or process personal identification numbers as a part of a PIN based transaction and for other payment processing related activities. Recognized PTS laboratories validate adherence to the PTS requirements. Financial institutions, processors, merchants and service providers should ensure that they are using approved PTS devices or components. Non financial institutions should check with their acquiring financial institution to understand requirements and associated timeframes for compliance. The PTS requirements cover devices, including the physical and logical security characteristics of their components, and device management. For details and a list of approved PTS devices and components see: www.pcisecuritystandards.org/security_standards/ped/index.shtml
+These requirements, referred to as PCI PTS (formerly PCI PED), applies to companies which make devices or components that accept or process personal identification numbers as a part of a PIN based transaction and for other payment processing related activities. Recognized PTS laboratories validate adherence to the PTS requirements. Financial institutions, processors, merchants and service providers should ensure that they are using approved PTS devices or components. Non financial institutions should check with their acquiring financial institution to understand requirements and associated timeframes for compliance. The PTS requirements cover devices, including the physical and logical security characteristics of their components, and device management. For details and a list of approved PTS devices and components see: www.pcisecuritystandards.org/security\_standards/ped/index.shtml
 
 ## Payment application Data Security Standard
 
-The PA-DSS is a standard for developers of payment applications. Its goal is to help software vendors and others develop secure commercial payment applications that do not store prohibited data, and ensure that payment applications support compliance with the PCI DSS. The PA-DSS does not apply to payment applications developed by merchants in-house; those are covered by the PCI DSS. Merchants and service providers should ensure that they are using Council-approved payment applications; check with your acquiring financial institution to understand requirements and associated timeframes for implementing approved applications. PA-DSS has 13 requirements: For details and a list of approved Payment Applications, see: www.pcisecuritystandards.org/security_standards/index.php.
-
-
-
-10
+The PA-DSS is a standard for developers of payment applications. Its goal is to help software vendors and others develop secure commercial payment applications that do not store prohibited data, and ensure that payment applications support compliance with the PCI DSS. The PA-DSS does not apply to payment applications developed by merchants in-house; those are covered by the PCI DSS. Merchants and service providers should ensure that they are using Council-approved payment applications; check with your acquiring financial institution to understand requirements and associated timeframes for implementing approved applications. PA-DSS has 13 requirements: For details and a list of approved Payment Applications, see: www.pcisecuritystandards.org/security\_standards/index.php.
 
 ## Security Controls and Processes for PCI DSS Requirements
 
 The goal of the PCI Data Security Standard (PCI DSS) is to protect cardholder data wherever it is processed, stored or transmitted. The security controls and processes required by PCI DSS are vital for protecting cardholder account data, including the PAN - the primary account number printed on the front of a payment card. Merchants and any other service providers involved with payment card processing must never store sensitive authentication data after authorization. This includes sensitive data that is printed on a card, or stored on a card's magnetic stripe or chip - and personal identification numbers entered by the cardholder. This chapter presents the objectives of PCI DSS and related 12 requirements.
 
-
-
-
-
-Security Controls and Processes for PCI DSS Requirements
-
-11
-
-## Build and Maintain a Secure Network
+### Build and Maintain a Secure Network
 
 In the past, theft of financial records required a criminal to physically enter an organization's business site. Now, many payment card transactions (such as debit in the U.S. and "chip and pin" in Europe) use PIN entry devices and computers connected by networks. By using network security controls, entities can prevent criminals from virtually accessing payment system networks and stealing cardholder data.
 
-## Requirement 1: Install and maintain a firewall and router configuration to protect cardholder data
+Requirement 1: Install and maintain a firewall and router configuration to protect cardholder data
 
 Firewalls are devices that control computer traffic allowed into and out of an organization's network, and into sensitive areas within its internal network. Firewall functionality may also appear in other system components. Routers are hardware or software that connects two or more networks. All such devices are in scope for assessment of Requirement 1 if used within the cardholder data environment.
 
@@ -206,27 +91,11 @@ Firewalls are devices that control computer traffic allowed into and out of an o
 - 1.3 Prohibit direct public access between the Internet and any system component in the cardholder data environment.
 - 1.4 Install personal firewall software on any mobile and/or employee-owned computers with direct connectivity to the Internet that are used to access the organization's network.
 
+Controls for Network Security
+- Firewall. Device that controls the passage of traffic between networks and within an internal network
+- Router. Hardware or software that connects traffic between two or more networks
 
-
-12
-
-## CoNTRoLS FoR NeTWoRk SeCURITy
-
-
-
-## Firewall
-
-Device that controls the passage of traffic between networks and within an internal network
-
-
-
-## Router
-
-Hardware or software that connects traffic between two or more networks
-
-Illustration / Photo: Wikimedia Commons
-
-## Requirement 2: Do not use vendor-supplied defaults for system passwords and other security parameters
+Requirement 2: Do not use vendor-supplied defaults for system passwords and other security parameters
 
 The easiest way for a hacker to access your internal network is to try default passwords or exploits based on default system software settings in your payment card infrastructure. Far too often, merchants do not change default passwords or settings upon deployment. This is akin to leaving your store physically unlocked when you go home for the night. Default passwords and settings for most network devices are widely known. This information, combined with hacker tools that show what devices are on your network can make unauthorized entry a simple task - if you have failed to change the defaults.
 
@@ -235,19 +104,29 @@ The easiest way for a hacker to access your internal network is to try default p
 - 2.3 Encrypt using strong cryptography all non-console administrative access such as browser/webbased management tools.
 - 2.4 Shared hosting providers must protect each entity's hosted environment and cardholder data (details are in PCI DSS Appendix A: "Additional PCI DSS Requirements for Shared Hosting Providers.")
 
+Typical default passwords that must be changed:
+- [none]
+- [name of product / vendor]
+- 1234 or 4321
+- access
+- admin
+- anonymous
+- database
+- guest
+- manager
+- pass
+- password
+- root
+- sa
+- secret
+- sysadmin
+- user
 
-
-## TyPICaL DeFaULT PaSSWoRDS ThaT MUST Be ChaNGeD
-
-[none] [name of product / vendor] 1234 or 4321 access admin anonymous database guest manager pass password root sa secret sysadmin user
-
-13
-
-## Protect Cardholder Data
+### Protect Cardholder Data
 
 Cardholder data refers to any information printed, processed, transmitted or stored in any form on a payment card. Entities accepting payment cards are expected to protect cardholder data and to prevent their unauthorized use - whether the data is printed or stored locally, or transmitted over a public network to a remote server or service provider.
 
-## Requirement 3: Protect stored cardholder data
+Requirement 3: Protect stored cardholder data
 
 In general, no cardholder data should ever be stored unless it's necessary to meet the needs of the business. Sensitive data on the magnetic stripe or chip must never be stored. If your organization stores PAN, it is crucial to render it unreadable (see 3.4, and table below for guidelines).
 
@@ -255,25 +134,16 @@ In general, no cardholder data should ever be stored unless it's necessary to me
 - 3.2 Do not store sensitive authentication data after authorization (even if it is encrypted). See guidelines in table below. Issuers and related entities may store sensitive authentication data if there is a business justification, and the data is stored securely.
 - 3.3 Mask PAN when displayed; the first six and last four digits are the maximum number of digits you may display. Not applicable for authorized people with a legitimate business need to see the full PAN. Does not supersede stricter requirements in place for displays of cardholder data such as on a point-of-sale receipt.
 - 3.4 Render PAN unreadable anywhere it is stored - including on portable digital media, backup media, in logs, and data received from or stored by wireless networks. Technology solutions for this requirement may include strong one-way hash functions of the entire PAN, truncation, index tokens with securely stored pads, or strong cryptography. (See PCI DSS Glossary for definition of strong cryptography.)
-
-
-
-14
-
-## eNCRyPTIoN PRIMeR
-
-Cryptography uses a mathematical formula to render plaintext data unreadable to people without special knowledge (called a "key"). Cryptography is applied to stored data as well as data transmitted over a network.
-
-Encryption changes plaintext into ciphertext.
-
-Decryption changes ciphertext back into plaintext.
-
-Illustration: Wikimedia Commons
-
 - 3.5 Protect any keys used for encryption of cardholder data from disclosure and misuse.
 - 3.6 Fully document and implement all appropriate key management processes and procedures for cryptographic keys used for encryption of cardholder data.
 
-## Guidelines for Cardholder Data elements
+Encryption Primer
+
+- Cryptography uses a mathematical formula to render plaintext data unreadable to people without special knowledge (called a "key"). Cryptography is applied to stored data as well as data transmitted over a network.
+- Encryption changes plaintext into ciphertext.
+- Decryption changes ciphertext back into plaintext.
+
+Guidelines for Cardholder Data elements
 
 |                                   | Data Element                  | Storage Permitted   | Render Stored Account  Data Unreadable per  Requirement 3.4   |
 |-----------------------------------|-------------------------------|---------------------|---------------------------------------------------------------|
@@ -281,56 +151,40 @@ Illustration: Wikimedia Commons
 | Cardholder  Data                  | Cardholder Name               | Yes                 | No                                                            |
 | Cardholder  Data                  | Service Code                  | Yes                 | No                                                            |
 | Cardholder  Data                  | Expiration Date               | Yes                 | No                                                            |
-| Sensitive  Authentication  Data 1 | Full Magnetic Stripe  Data 2  | No                  | Cannot store per  Requirement 3.2                             |
-| Sensitive  Authentication  Data 1 | CAV2/CVC2/CVV2/CID            | No                  | Cannot store per  Requirement 3.2                             |
-| Sensitive  Authentication  Data 1 | PIN/PIN Block                 | No                  | Cannot store per  Requirement 3.2                             |
+| Sensitive  Authentication  Data | Full Magnetic Stripe  Data (Full track data from the magnetic stripe, equivalent data on the chip, or elsewhere.)  | No                  | Cannot store per  Requirement 3.2                             |
+| Sensitive  Authentication  Data | CAV2/CVC2/CVV2/CID            | No                  | Cannot store per  Requirement 3.2                             |
+| Sensitive  Authentication  Data | PIN/PIN Block                 | No                  | Cannot store per  Requirement 3.2                             |
 
-- 1 Sensitive authentication data must not be stored after authorisation (even if encrypted).
-- 2 Full track data from the magnetic stripe, equivalent data on the chip, or elsewhere.
+Sensitive authentication data must not be stored after authorisation (even if encrypted).
 
-
-
-15
-
-## Requirement 4: encrypt transmission of cardholder data across open, public networks
+Requirement 4: Encrypt transmission of cardholder data across open, public networks
 
 Cyber criminals may be able to intercept transmissions of cardholder data over open, public networks so it is important to prevent their ability to view these data. Encryption is a technology used to render transmitted data unreadable by any unauthorized person.
 
 - 4.1 Use strong cryptography and security protocols such as SSL/TLS, SSH or IPSec to safeguard sensitive cardholder data during transmission over open, public networks (e.g. Internet, wireless technologies, Global System for Mobile communications [GSM], General Packet Radio Service [GPRS]). Ensure wireless networks transmitting cardholder data or connected to the cardholder data environment use industry best practices (e.g., IEEE 802.11i) to implement strong encryption for authentication and transmission. The use of WEP as a security control is prohibited.
 - 4.2 Never send unprotected PANs by end user messaging technologies.
 
-## Maintain a vulnerability Management Program
+### Maintain a Vulnerability Management Program
 
 Vulnerability management is the process of systematically and continuously finding weaknesses in an entity's payment card infrastructure system. This includes security procedures, system design, implementation, or internal controls that could be exploited to violate system security policy.
 
-## Requirement 5: Use and regularly update anti-virus software or programs
+Requirement 5: Use and regularly update anti-virus software or programs
 
 Many vulnerabilities and malicious viruses enter the network via users' e-mail and other online activities. Anti-virus software must be used on all systems affected by malware to protect systems from current and evolving malicious software threats.
 
 - 5.1 Deploy anti-virus software on all systems affected by malicious software (particularly personal computers and servers).
 - 5.2 Ensure that all anti-virus mechanisms are current, actively running, and generating audit logs.
 
+Vulnerability Management
 
+- Create policy governing security controls according to industry standard best practices (e.g., IEEE 802.11i)
+- Regularly scan systems for vulnerabilities
+- Create remediation schedule based on risk and priority
+- Pre-test and deploy patches Rescan to verify compliance
+- Update security software with the most current signatures and technology
+- Use only software or systems that were securely developed by industry standard best practices
 
-vULNeRaBILITy MaNaGeMeNT
-
-
-
-Create policy governing security controls according to industry standard best practices (e.g., IEEE 802.11i)
-
-Regularly scan systems for vulnerabilities
-
-Create remediation schedule based on risk and priority
-
-Pre-test and deploy patches Rescan to verify compliance
-
-Update security software with the most current signatures and technology
-
-Use only software or systems that were securely developed by industry standard best practices
-
-16
-
-## Requirement 6: Develop and maintain secure systems and applications
+Requirement 6: Develop and maintain secure systems and applications
 
 Security vulnerabilities in systems and applications may allow criminals to access PAN and other cardholder data. Many of these vulnerabilities are eliminated by installing vendor-provided security patches, which perform a quick-repair job for a specific piece of programming code. All critical systems must have the most recently released software patches to prevent exploitation. Entities should apply patches to less-critical systems as soon as possible, based on a risk-based vulnerability management program. Secure coding practices for developing applications, change control procedures and other secure software development practices should always be followed.
 
@@ -341,45 +195,29 @@ Security vulnerabilities in systems and applications may allow criminals to acce
 - 6.5 Develop applications based on secure coding guidelines and review custom application code to identify coding vulnerabilities. Follow up-to-date industry best practices to identify and manage vulnerabilities.
 - 6.6 Ensure all public-facing web applications are protected against known attacks, either by performing code vulnerability reviews at least annually or by installing a web application firewall in front of public-facing web applications.
 
-
-
-17
-
-## Implement Strong access Control Measures
+### Implement Strong access Control Measures
 
 Access control allows merchants to permit or deny the use of physical or technical means to access PAN and other cardholder data. Access must be granted on a business need to know basis. Physical access control entails the use of locks or restricted access to paper-based cardholder records or system hardware. Logical access control permits or denies use of PIN entry devices, a wireless network, PCs and other devices. It also controls access to digital files containing cardholder data.
 
-## Requirement 7: Restrict access to cardholder data by business need to know
+Requirement 7: Restrict access to cardholder data by business need to know
 
 To ensure critical data can only be accessed by authorized personnel, systems and processes must be in place to limit access based on need to know and according to job responsibilities. Need to know is when access rights are granted to only the least amount of data and privileges needed to perform a job.
 
 - 7.1 Limit access to system components and cardholder data to only those individuals whose job requires such access.
 - 7.2 Establish an access control system for systems components with multiple users that restricts access based on a user's need to know, and is set to "deny all" unless specifically allowed.
 
-## Requirement 8: assign a unique ID to each person with computer access
+Restricting Access is Crucial
+
+- Restrict Access to Cardholder Data Environments by employing access controls such as RBAC (Role Based Access Control)
+- Limit access to only those individuals whose job requires such access
+- Formalize an access control policy that includes a list of who gets access to specified cardholder data and systems
+- Deny all access to anyone who is not specifically allowed to access cardholder data and systems
+
+Requirement 8: assign a unique ID to each person with computer access
 
 Assigning a unique identification (ID) to each person with access ensures that actions taken on critical data and systems are performed by, and can be traced to, known and authorized users. Requirements apply to all accounts, including point of sale accounts, with administrative capabilities and all accounts with access to stored cardholder data.
 
 - 8.1 Assign all users a unique user name before allowing them to access system components or cardholder data.
-
-
-
-18
-
-## ReSTRICTING aCCeSS IS CRUCIaL!
-
-
-
-Restrict Access to Cardholder Data Environments by employing access controls such as RBAC (Role Based Access Control)
-
-Limit access to only those individuals whose job requires such access
-
-Formalize an access control policy that includes a list of who gets access to specified cardholder data and systems
-
-Deny all access to anyone who is not specifically allowed to access cardholder data and systems
-
-Photo: Wikimedia Commons
-
 - 8.2 Employ at least one of these to authenticate all users: something you know, such as a password or passphrase; something you have, such as a token device or smart card; or something you are, such as a biometric.
 - 8.3 Implement two-factor authentication for remote access to the network by employees, administrators, and third parties. For example, use technologies such as remote authentication and dialin service (RADIUS) with tokens; terminal access controller access control system (TACACS) with tokens; or other technologies that facilitate two-factor authentication. Using one factor twice (e.g. using two separate passwords) is not considered two-factor authentication.
 - 8.4 Render all passwords unreadable during storage and transmission, for all system components, by using strong cryptography.
