@@ -26,7 +26,7 @@ The Nominating and Governance Committee has not adopted any specific minimum qua
 
 ## The PNC Financial Services Group, Inc. Corporate Governance Guidelines
 
-(As approved bytheBoard ofDirectorsonNovember7,2024)
+(As approved bytheBoard of Directors on November7, 2024)
 
 ## Board Responsibilities
 
@@ -48,7 +48,7 @@ Shareholder Recommendations. The Nominating and Governance Committee also consid
 
 ## The PNC Financial Services Group, Inc. Corporate Governance Guidelines
 
-(As approved bytheBoard ofDirectorsonNovember7,2024)
+(As approved by the Board ofDirectors on November7, 2024)
 
 ## Board Responsibilities
 
@@ -75,7 +75,7 @@ The Nominating and Governance Committee does not consider any candidate with an 
 
 ## The PNC Financial Services Group, Inc. Corporate Governance Guidelines
 
-(As approved bytheBoard ofDirectorsonNovember7,2024)
+(As approved by the Board of Directors on November7, 2024)
 
 ## Board Responsibilities
 
@@ -102,7 +102,7 @@ The Presiding Director is an independent director who also serves as the chair o
 
 ## The PNC Financial Services Group, Inc. Corporate Governance Guidelines
 
-(As approved bytheBoard ofDirectorsonNovember7,2024)
+(As approved by the Board of Directors on November7, 2024)
 
 ## Board Responsibilities
 
@@ -129,7 +129,7 @@ The board has ultimate oversight of PNC's strategy, including the risks and oppo
 
 ## The PNC Financial Services Group, Inc. Corporate Governance Guidelines
 
-(As approved bytheBoard ofDirectorsonNovember7,2024)
+(As approved by the Board of Directors on November7, 2024)
 
 ## Board Responsibilities
 
@@ -151,7 +151,7 @@ The Nominating and Governance Committee conducts an annual review of director co
 
 ## The PNC Financial Services Group, Inc. Corporate Governance Guidelines
 
-(As approved bytheBoard ofDirectorsonNovember7,2024)
+(As approved by the Board of Directors on November7, 2024)
 
 ## Board Responsibilities
 
@@ -177,7 +177,7 @@ The board has adopted guidance to assist it in making determinations of independ
 
 ## The PNC Financial Services Group, Inc. Corporate Governance Guidelines
 
-(Asapproved bytheBoard ofDirectorsonNovember7,2024)
+(As approved by the Board of Directors on November7, 2024)
 
 ## Board Composition
 
@@ -201,7 +201,7 @@ The board has established a mandatory retirement age. A person who is age 75 or 
 
 ## The PNC Financial Services Group, Inc. Corporate Governance Guidelines
 
-(Asapproved bytheBoard ofDirectorsonNovember7,2024)
+(As approved by the Board of Directors on November7, 2024)
 
 ## Board Composition
 
@@ -227,13 +227,13 @@ The board performs its work with the assistance of committees and subcommittees 
 
 - · Audit
 - · Human Resources
-- Nominating and Governance
-- Risk
+- . Nominating and Governance
+- . Risk
 - · Executive
 
 ## The PNC Financial Services Group, Inc. Corporate Governance Guidelines
 
-(As approved bytheBoard ofDirectorsonNovember7,2024)
+(As approved by the Board of Directors on November7, 2024)
 
 ## Board Operations
 
@@ -253,7 +253,7 @@ In addition, any such committee should consult with internal or outside counsel 
 
 ## The PNC Financial Services Group, Inc. Corporate Governance Guidelines
 
-(As approved bytheBoard ofDirectorsonNovember7,2024)
+(As approved by the Board of Directors on November7, 2024)
 
 ## Board Operations
 
@@ -281,7 +281,7 @@ Directors have full and free access to PNC officers and employees. A director ma
 
 ## The PNC Financial Services Group, Inc. Corporate Governance Guidelines
 
-(As approved bytheBoard ofDirectorsonNovember7,2024)
+(As approved by the Board of Directors on November7, 2024)
 
 ## Board Operations
 
@@ -301,7 +301,7 @@ The continuing education program considers the directors' knowledge and experien
 
 ## The PNC Financial Services Group, Inc. Corporate Governance Guidelines
 
-(As approved bytheBoard ofDirectorsonNovember7,2024)
+(As approved by the Board of Directors on November7, 2024)
 
 ## Board Operations
 
@@ -325,7 +325,7 @@ Documents sent by mail not addressed to directors as described above are reviewe
 
 ## The PNC Financial Services Group, Inc. Corporate Governance Guidelines
 
-(Asapproved bytheBoard ofDirectorsonNovember7,2024)
+(Asapproved by the Board of Directors on November7, 2024)
 
 ## Corporate Governance Guidelines Director Independence Guidelines (Exhibit A)
 
@@ -340,7 +340,7 @@ None of the relationships described below shall be deemed to be a "material rela
 
 ## The PNC Financial Services Group, Inc. Corporate Governance Guidelines
 
-(As approved bytheBoard ofDirectorsonNovember7,2024)
+(As approved by the Board of Directors on November7, 2024)
 
 ## Corporate Governance Guidelines Director Independence Guidelines (Exhibit A)
 
