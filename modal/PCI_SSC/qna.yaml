@@ -1,0 +1,52 @@
+---
+version: 3
+created_by: danas
+document:
+  commit: abc
+  patterns:
+  - PCI_SSC_QuickRef_Guide_2010.md
+  repo: https://github.com/madalin312/apollo_documents
+document_outline: |-
+  
+domain: Finance
+seed_examples:
+- context: |-
+    | Goals                                        | PCI DSS Requirements                                                                                                                                                    |
+    |----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    | Build and Maintain a Secure  Network         | 1. Install and maintain a firewall configuration to protect cardholder  data 2. Do not use vendor-supplied defaults for system passwords and other  security parameters |
+    | Protect Cardholder Data                      | 3. Protect stored cardholder data 4. Encrypt transmission of cardholder data across open, public networks                                                               |
+    | Maintain a Vulnerability  Management Program | 5. Use and regularly update anti-virus software or programs 6. Develop and maintain secure systems and applications                                                     |
+    | Implement Strong Access  Control Measures    | 7. Restrict access to cardholder data by business need to know 8. Assign a unique ID to each person with computer access 9. Restrict physical access to cardholder data |
+    | Regularly Monitor and Test  Networks         | 10. Track and monitor all access to network resources and cardholder data 11. Regularly test security systems and processes                                             |
+    | Maintain an Information  Security Policy     | 12. Maintain a policy that addresses information security for all personnel |
+  questions_and_answers:
+  - question: |-
+      Which steps does the "Protect Cardholder Data" goal has?
+    answer: |-
+      The "Protect Cardholder Data" goal has two steps.
+  - question: |-
+      Which PCI DSS Requirement falls under the "Maintain an Information Security Policy" goal?
+    answer: |-
+      "Maintain a policy that addresses information security for all personnel" falls under the "Maintain an Information Security Policy" goal.
+  - question: |-
+      Which goal does the "Protect stored cardholder data" requirement belongs to?
+    answer: The "Protect stored cardholder data" requirement belongs to the "Protect Cardholder Data" goal.
+- context: |-
+    Requirement 5: Use and regularly update anti-virus software or programs
+
+    Many vulnerabilities and malicious viruses enter the network via users' e-mail and other online activities. Anti-virus software must be used on all systems affected by malware to protect systems from current and evolving malicious software threats.
+
+    - 5.1 Deploy anti-virus software on all systems affected by malicious software (particularly personal computers and servers).
+    - 5.2 Ensure that all anti-virus mechanisms are current, actively running, and generating audit logs.
+  questions_and_answers:
+  - question: |-
+      How do you comply with the Requirement 5. "Use and regularly update anti-virus software or programs"?
+    answer: |-
+      By deploying anti-virus software on all systems affected by malicious software and Ensure that all anti-virus mechanisms are current, actively running, and generating audit logs one complies with the Requirement 5. "Use and regularly update anti-virus software or programs".
+  - question: |-
+      What Requirement 5. "Use and regularly update anti-virus software or programs" is intended for?
+    answer: |-
+      Requirement 5. "Use and regularly update anti-virus software or programs" is intended to protect the systems from the malicious software threat.
+  - question: |-
+      Where anti-virus software should be deployed?
+    answer: Anti-virus software should be deployed on all systems affected by malicious software (particularly personal computers and servers).
